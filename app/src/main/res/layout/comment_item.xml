@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/lv"
+    android:paddingBottom="1dp"
+    android:background="@drawable/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <wight.CicImageView
+        android:id="@+id/civ"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:text="111"
+        android:padding="15dp"
+        android:textColor="#E6E6E6"
+        android:layout_below="@+id/civ"
+        android:id="@+id/tv_shafa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+       <RelativeLayout
+           android:layout_toRightOf="@+id/civ"
+           android:id="@+id/rlv"
+           android:layout_margin="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="#E6E6E6"
+               android:text="11111111"
+               android:id="@+id/username"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+          <TextView
+              android:textColor="#E6E6E6"
+              android:layout_alignParentRight="true"
+              android:text="11111"
+              android:id="@+id/text_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+       </RelativeLayout>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/civ"
+            android:layout_below="@+id/rlv"
+            android:id="@+id/content"
+            android:text="1111111"
+            android:textColor="#9F9F9F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ing"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#9F9F9F"
+            android:text="11111111"
+            android:id="@+id/dingcai"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl"
+    android:background="#ff0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <com.superrecycleview.superlibrary.recycleview.SuperRecyclerView
+                android:layout_below="@+id/Image_view"
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </LinearLayout>

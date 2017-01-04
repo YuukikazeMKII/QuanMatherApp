@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+   >
+            <wight.CircleImageView
+                android:id="@+id/civ"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/youhuiquan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <marqueeview.MarqueeView
+                android:id="@+id/ltv"
+                android:background="#f00"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imv_brand"
+                android:layout_width="match_parent"
+                android:layout_height="120dp" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvw1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+</LinearLayout>

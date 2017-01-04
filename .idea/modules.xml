@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuanMather.iml" filepath="$PROJECT_DIR$/QuanMather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app1.iml" filepath="$PROJECT_DIR$/app1/app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/js-bridge/js-bridge.iml" filepath="$PROJECT_DIR$/js-bridge/js-bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/js-bridge-demo/js-bridge-demo.iml" filepath="$PROJECT_DIR$/js-bridge-demo/js-bridge-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myscroll/myscroll.iml" filepath="$PROJECT_DIR$/myscroll/myscroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulltorefreshlib/pulltorefreshlib.iml" filepath="$PROJECT_DIR$/pulltorefreshlib/pulltorefreshlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superlibrary/superlibrary.iml" filepath="$PROJECT_DIR$/superlibrary/superlibrary.iml" />
+    </modules>
+  </component>
+</project>

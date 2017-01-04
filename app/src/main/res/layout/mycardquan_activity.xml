@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#ff6666"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:textSize="22dp"
+            android:text="我的卡券"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/back_tital"
+            android:src="@mipmap/abc_ic_ab_back_mtrl_am_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+<android.support.design.widget.TabLayout
+    android:id="@+id/tb_layout"
+    app:tabTextColor="#000000"
+    app:tabIndicatorColor="#FF6666"
+   app:tabSelectedTextColor="#ff8888"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<android.support.v4.view.ViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>

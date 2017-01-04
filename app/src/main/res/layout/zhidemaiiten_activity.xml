@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rv"
+        android:background="#ff6666"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:textSize="22dp"
+            android:text="值得买详情"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/back_tital"
+            android:src="@mipmap/abc_ic_ab_back_mtrl_am_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>s
+    <ScrollView
+        android:layout_below="@+id/rv"
+        android:layout_above="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:background="#fff"
+                android:id="@+id/imv_zhidemai"
+                android:layout_width="match_parent"
+                android:scaleType="center"
+                android:layout_height="150dp" />
+            <com.github.lzyzsd.jsbridge.BridgeWebView
+                android:id="@+id/wv_zhidemai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </com.github.lzyzsd.jsbridge.BridgeWebView>
+        </LinearLayout>
+    </ScrollView>
+<LinearLayout
+    android:id="@+id/lv"
+    android:orientation="horizontal"
+    android:background="#F5F5F5"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <CheckBox
+        android:paddingLeft="15dp"
+        android:button="@null"
+        android:id="@+id/dianzan"
+        android:layout_gravity="center"
+        android:drawablePadding="5dp"
+        android:text="1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:drawableLeft="@mipmap/tab_btn_zan"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:button="@null"
+        android:paddingLeft="15dp"
+        android:id="@+id/shoucang"
+        android:layout_gravity="center"
+        android:drawablePadding="5dp"
+        android:text="1"
+        android:drawableLeft="@mipmap/tab_btn_fav"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingLeft="15dp"
+        android:id="@+id/share"
+        android:layout_gravity="center"
+        android:drawablePadding="5dp"
+        android:text="1"
+        android:drawableLeft="@mipmap/tab_btn_share"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingLeft="15dp"
+        android:id="@+id/commend"
+        android:layout_gravity="center"
+        android:drawablePadding="5dp"
+        android:text="1"
+        android:drawableLeft="@mipmap/tab_btn_ping"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_link"
+        android:layout_marginRight="10dp"
+        android:textColor="#ff0000"
+        android:text="直达连接"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xiangcuntiandi.quanmather.MainActivity">
+    <FrameLayout
+        android:id="@+id/home_fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Rg"></FrameLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:id="@+id/Rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#dee1e1"
+        android:orientation="horizontal"
+           >
+        <TextView
+            android:tag="0"
+            android:drawablePadding="5dp"
+            android:textColor="@color/textcolor"
+            android:gravity="center"
+            android:text="首页"
+            android:drawableTop="@drawable/home_button"
+            android:button="@null"
+            android:layout_weight="1"
+            android:id="@+id/radio_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:tag="1"
+            android:drawablePadding="5dp"
+            android:textColor="@color/textcolor"
+            android:gravity="center"
+            android:text="优惠券"
+            android:drawableTop="@drawable/youhuiquan"
+            android:button="@null"
+            android:layout_weight="1"
+            android:id="@+id/radio_youhui"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:tag="2"
+            android:drawablePadding="5dp"
+            android:textColor="@color/textcolor"
+            android:gravity="center"
+            android:text="福利"
+            android:drawableTop="@drawable/fuli"
+            android:button="@null"
+            android:layout_weight="1"
+            android:id="@+id/radio_fuli"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:tag="3"
+            android:drawablePadding="5dp"
+            android:textColor="@color/textcolor"
+            android:gravity="center"
+            android:text="值得买"
+            android:drawableTop="@drawable/subscribe"
+            android:button="@null"
+            android:layout_weight="1"
+            android:id="@+id/radio_zhidemai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:tag="4"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:text="我的"
+            android:drawableTop="@drawable/usercenter"
+            android:button="@null"
+            android:layout_weight="1"
+            android:id="@+id/radio_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

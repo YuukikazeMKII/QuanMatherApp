@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:background="#ffffff"
+    android:id="@+id/rv"
+    android:layout_height="100dp">
+   <ImageView
+       android:id="@+id/imv_brand"
+       android:layout_margin="10dp"
+       android:layout_width="80dp"
+       android:layout_height="80dp" />
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tv_name"
+        android:textSize="18dp"
+        android:text="111"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/imv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+ <TextView
+        android:id="@+id/guanzhushu"
+     android:padding="5dp"
+     android:text="FF6969"
+     android:textColor="#B7B7B7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/name_goods"
+     android:layout_alignBottom="@+id/name_goods"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentEnd="true" />
+
+ <TextView
+     android:id="@+id/name_goods"
+    android:padding="5dp"
+     android:text="111111111111111"
+     android:textColor="#B7B7B7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_toRightOf="@+id/tv_price"
+     android:layout_toEndOf="@+id/tv_price" />
+
+ <TextView
+     android:id="@+id/tv_price"
+     android:padding="5dp"
+     android:text="1111"
+     android:textColor="#FF6969"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/tv_name"
+     android:layout_toRightOf="@+id/imv_brand"
+     android:layout_toEndOf="@+id/imv_brand" />
+ <ImageView
+     android:id="@+id/imv_icon"
+     android:layout_width="20dp"
+     android:layout_height="20dp"
+     android:layout_margin="10dp"
+     android:layout_alignParentBottom="true"
+     android:layout_alignLeft="@+id/tv_name"
+     android:layout_alignStart="@+id/tv_name" />
+</RelativeLayout>

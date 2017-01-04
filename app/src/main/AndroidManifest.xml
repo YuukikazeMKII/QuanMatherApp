@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xiangcuntiandi.quanmather">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <application
+        android:name="config.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="	58625a9865b6d606ef000dcf" >
+        </meta-data>
+        <activity android:name=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name="activity.LoginActivity"/>
+        <activity android:name="activity.my.OrderCenter"/>
+        <activity android:name="activity.my.MyCardQuanActivity"/>
+        <activity android:name="activity.my.KFCQuanActivity"/>
+        <activity android:name="activity.my.HotGameActivity"/>
+        <activity android:name="activity.my.MyShouCangActivity"/>
+        <activity android:name="activity.my.SettingActivity"/>
+        <activity android:name="activity.zhidemaiactivity.ZhiDeMaiActivity"/>
+        <activity android:name="activity.zhidemaiactivity.ZhiDeMaiLinkActivity"/>
+        <activity android:name="activity.zhidemaiactivity.CommentActivity"/>
+        <activity android:name="activity.zhidemaiactivity.SearchActivity"/>
+        <activity android:name="activity.zhidemaiactivity.ClassActivity"/>
+        <activity android:name="activity.zhidemaiactivity.SearchDetailActivity"/>
+        <activity android:name="activity.zhidemaiactivity.HotBrandActivity"/>
+        <activity android:name="activity.zhidemaiactivity.BrandListPaiXu"/>
+        <activity android:name="activity.zhidemaiactivity.BrandDetailActivity"/>
+        <activity android:name="activity.zhidemaiactivity.DianJiLingQuanActivity"/>
+        <activity android:name="activity.FuLiActivity.FuLiActivity"/>
+        <activity android:name="activity.HomeActivity.KFCActivity"/>
+        <activity android:name="activity.HomeActivity.HomeWebActivity"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1105719064" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:name="wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>
