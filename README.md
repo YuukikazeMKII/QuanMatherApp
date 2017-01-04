@@ -1,0 +1,1 @@
+# QuanMatherApp这个开源代码，使用的时以bufferkniff为注解框架，Activity+Fragment的页面布局方式进行的！开源代码中以Xuitl进行数据库和网络的处理，使用友盟进行第三方登陆和分享的处理和错误的收集，使用Glide进行图片的加载。使用ListView和RecyceleView进行列表的处理。并重新定义了RecycleView。使其滑动效果更具有特色。并使用MD风格增强其页面的绚丽和美观！自定义上下滚动的广告。以及各种空间的复杂嵌套！等等
